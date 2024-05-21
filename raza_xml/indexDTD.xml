@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Exteenal dtd -->
+<?xml-model href="index.dtd" type="application/xml-dtd"?>
+<!DOCTYPE aptech
+[
+<!ELEMENT aptech (student*)>
+<!ELEMENT student (NAme , Gender , Age , Email , PhoneNumber)>
+<!ELEMENT NAme (#PCDATA)>
+<!ELEMENT Gender (#PCDATA)>
+<!ELEMENT Age (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT PhoneNumber (#PCDATA)>
+]>
+<aptech>
+
+    <student>
+        <Name>Ali</Name>
+        <Gender>Male</Gender>
+        <Age>22</Age>
+        <Email>ali@gmail.com</Email>
+        <PhoneNumber>0312-3685749</PhoneNumber>
+    </student>
+
+    <student>
+        <Name>Atif</Name>
+        <Gender>Male</Gender>
+        <Age>25</Age>
+        <Email>atif@gmail.com</Email>
+        <PhoneNumber>0302-2569874</PhoneNumber>
+    </student>
+
+    <student>
+        <Name>Imran</Name>
+        <Gender>Male</Gender>
+        <Age>24</Age>
+        <Email>imran@gmail.com</Email>
+        <PhoneNumber>0341-3685749</PhoneNumber>
+    </student>
+
+    <student>
+        <Name>Saqib</Name>
+        <Gender>Male</Gender>
+        <Age>30</Age>
+        <Email>saqib@gmail.com</Email>
+        <PhoneNumber>0312-3685749</PhoneNumber>
+    </student>
+
+    <student>
+        <Name>Irfan</Name>
+        <Gender>Male</Gender>
+        <Age>20</Age>
+        <Email>irfan@gmail.com</Email>
+        <PhoneNumber>0312-3685749</PhoneNumber>
+    </student>
+
+
+
+
+
+</aptech>
